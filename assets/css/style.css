@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/FIELD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Fredoka One';
+    font-size: 60px;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
