@@ -8,7 +8,6 @@ body {
     background-image: url(../images/FIELD.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
