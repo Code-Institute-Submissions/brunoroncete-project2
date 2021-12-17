@@ -1,8 +1,11 @@
 const cards = document.querySelectorAll('.fbflag');
-
+var timer = setInterval(countTimer, 1000);
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let score = 0;
+let totalSeconds = 0;
+document.getElementById('score').innerHTML = score;
 
 
 function flipCard() {
@@ -33,6 +36,8 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    score++;
+    document.getElementById('score').innerHTML = score;
 }
 
 function unflipCards() {
@@ -56,23 +61,15 @@ function resetBoard() {
     });
 })();
 
-function time() {
-    let secs = 0
-    let mins = 0
-    let SS
-    let MM
-    setInterval(() => {
-        secs++
-        if (secs == 60) {
-            secs = 0;
-            mins++
-        }
-
-        secs < 10 ? SS = `0${secs}` : SS = `${secs}`
-        mins < 10 ? MM = `0${mins}` : SS = `${mins}`
-
-        document.querySelector('#time').innerHTML = `${MM}:${SS}`
-    }, 1000)
+function countTimer() {
+    ++totalSeconds;
+    let minute = Math.floor((totalSeconds) / 60);
+    let seconds = totalSeconds % 60;
+    if (minute < 10)
+        minute = "0" + minute;
+    if (seconds < 10)
+        seconds = "0" + seconds;
+    document.getElementById("timer").innerHTML = minute + ":" + seconds;
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
