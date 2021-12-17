@@ -23,6 +23,16 @@
 
 <body>
     <header>MATCH THE FLAGS</header>
+
+    <div id='board'>
+        <span class="board-game">
+            <h3>SCORE:<span id='score'>0</span></h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3>TIME:<span id='timer'>00:00</span></h3>
+        </span>
+
+    </div>
+    <br><br>
     <section class="game">
 
         <div class="fbflag" data-type="flag1">
@@ -89,15 +99,24 @@
             <img src="assets/images/uruguay.png" alt="brazil flag" class="up">
             <img src="assets/images/ball.png" alt="brazil flag" class="down">
         </div>
-        </div>
 
     </section>
-    <div id='board'>
-        <span>
-            <h1>SCORE:<span id='score'>0</span><br>TIME:<span id='timer'>00:00</span></h1>
-        </span>
-        <br><br>
+    <br><br>
+    <button type="button" class="btn btn-light" onclick="resetButton()">PLAY AGAIN</button>
+    <div class="sm-area">
+        <ul class="social-media list-inline">
+            <li><a href="https://www.facebook.com" target="_blank" aria-label="facebook" title="Facebook"
+                    rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" aria-label="twitter" title="Twitter" rel="noopener"><i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" aria-label="youtube" title="Youtube" rel="noopener"><i
+                        class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" aria-label="instagram" title="Instagram"
+                    rel="noopener"><i class="fab fa-instagram"></i></a></li>
+        </ul>
     </div>
+
+    <p><a href="https://github.com/brunoroncete/">Created by Bruno Roncete</a></p>
     <script src="script.js"></script>
 </body>
 

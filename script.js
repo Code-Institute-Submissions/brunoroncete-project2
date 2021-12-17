@@ -38,6 +38,7 @@ function disableCards() {
     secondCard.removeEventListener('click', flipCard);
     score++;
     document.getElementById('score').innerHTML = score;
+
 }
 
 function unflipCards() {
@@ -52,6 +53,7 @@ function unflipCards() {
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null]
+
 }
 
 (function shuffle() {
@@ -70,6 +72,17 @@ function countTimer() {
     if (seconds < 10)
         seconds = "0" + seconds;
     document.getElementById("timer").innerHTML = minute + ":" + seconds;
+}
+
+function resetButton() {
+    location.reload();
+}
+
+function stopGame() {
+    if (score != 8)
+        clearInterval()
+    alert("YOU WIN!!!");
+
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
