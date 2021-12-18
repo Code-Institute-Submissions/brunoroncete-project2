@@ -2,15 +2,10 @@
 
 ![Mockup](assets/images/mockup.png)
 
-This comprehensive site was designed for a fictional gym (Tribo Fitness). The focus of the site is to provide information about the services the gym offers and attract more customers.
-
-This is the first of four Milestone Projects that the developer must complete during the Full Stack Web Development Program at The Code Institute.
-
-The main requirements were to make a responsive and static website with a minimum of three pages using primarily HTML5 and CSS3.
-
+This comprehensive site was designed for the second of four Milestone Projects that the developer must complete during the Full Stack Web Development Program at The Code Institute. The main requirements were to make a responsive page that respond to the user's actions, allowing users to actively engage with data, alter the way the site displays the information to achieve their preferred goals.
 ## UX
 
-The purpose is to design an attractive website to the customers of the gym, with a simple and intuitive layout that works on mobiles, tablets or desktops.
+The purpose is to design an attractive website, so the players can enjoy and have fun with the game.
 
 ## User Stories
 ### First Time Visitor Goals
@@ -21,21 +16,21 @@ The purpose is to design an attractive website to the customers of the gym, with
 ## Design
 ### Colour Scheme
 
-- The main colours used are white, black, grey and yellow, to give the site a clean, modern and professional look.
+- The main colours used are green, white and black, to give the site a clean, modern and professional look.
 
 ### Typography
 
-- The Oswald font is used throughout the website with Sans Serif.
+- The Fredoka one font is used throughout the website with Sans Serif.
 
 
 ### Wireframes
 
 #### index.html
-1. [Desktop index.html](wireframe/desktop.pdf)
+1. [Desktop index.html](assets/images/web.png)
 
-2. [Mobile index.html](wireframe/smartphone.pdf)
+2. [Mobile index.html](assets/images/phone.png)
 
-3. [Tablet index.html](wireframe/tablet.pdf)
+3. [Tablet index.html](assets/images/tablet.png)
 ## Existing Features
 
 ### Navigation Bar
@@ -51,15 +46,8 @@ The purpose is to design an attractive website to the customers of the gym, with
 ### [BootstrapCDN](https://www.bootstrapcdn.com/)
 - The project uses Bootstrap v 5.1.0 to simplify the structure of the website.
 - The project also uses BootstrapCDN to provide icons from FontAwesome.
-
-### [Popper.js](https://popper.js.org/)
-- The project uses Popper,js reference Javascript needed for the responsive navbar.
-
 ### [Google Fonts](https://fonts.google.com/)
 - The project uses Google fonts to style the website fonts.
-
-### [Canva](https://www.canva.com/)
-- The project uses Canva image editor to create the logo.
 
 ### [Balsamiq](https://balsamiq.com/) 
 - The project uses Balsamiq to create the wireframe mockups.
@@ -70,6 +58,9 @@ The purpose is to design an attractive website to the customers of the gym, with
 ### CSS 3
 - Style sheet language used for describing the presentation of a document in HTML.
 
+### Javascript
+
+- 
 ## Testing
 
 ### Development Testing
@@ -100,30 +91,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 index.html
 
-![Markup Index](assets/images/validindex.png)
+![Markup Index](assets/images/cssvalid.png)
 
-classes.html 
-
-![Markup Classes](assets/images/validclasses.png)
-
-joinnow.html
-
-![Markup JoinNow](assets/images/validjoin.png)
 
 - W3C CSS Validator 
 
-![Markup CSS](assets/images/validcss.png)
+![Markup CSS](assets/images/cssvalid1.png)
 
 
 - Lighthouse
 
-![Lighthouse](assets/images/lighthousetest.png)
+![Lighthouse](assets/images/lighthouse.png)
 
 I used the Lighthouse on Google Developer Tools to check the Perfomance, Accessibility, Best Practices and SEO of the website.
 
 - PowerMapper 
 
-![PowerMapper](assets/images/powermappertest.png)
+![PowerMapper](assets/images/powermapper.png)
 
 PowerMapper was used to double-check the browser compatibility.
 ## Testing User Stories from User Experience (UX) Section
@@ -177,7 +161,7 @@ This project was developed using Visual Studio Code Insiders, committed to git a
 3. At the Settings menu, select "Pages".
 4. Select the main branch and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://brunoroncete.github.io/gym-project/
+The live link can be found here - https://brunoroncete.github.io/project2/
 
 ### Forking the GitHub Repository
 
