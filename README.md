@@ -9,9 +9,12 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 
 ## User Stories
 ### First Time Visitor Goals
-1. As a first time visitor, I want to easily see if the gym offers the service that I am looking for.
-2. As a first time visitor, I want to find information about the classes that the gym offers.
-3. As a fisrt time visitor, I want to find out the cost of the services provided.
+1. As a first time visitor, I want a clear understanding of the interactive game on show.
+2. As a first time visitor, I want to have live scoring and a timer showing how long I take to win the game.
+
+# Return Visitor Goals
+
+1. As a return visitor, I want to enjoy the game.
 
 ## Design
 ### Colour Scheme
@@ -33,9 +36,26 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 3. [Tablet index.html](assets/images/tablet.png)
 ## Existing Features
 
-### Navigation Bar
+#### Below is a brief overview of the website and its main features.
 
-- Desktop Navbar
+- Timer and Score Board
+
+![Timer.html](assets/images/timerscore.png)
+
+- Game Board
+
+![Game up.html](assets/images/game.png)
+
+![Game down.html](assets/images/game2.png)
+
+- Play again button
+
+![Restart button.html](assets/images/restartbutton.png)
+
+- You Win Alert
+
+![Alert.html](assets/images/aviso.png)
+
 
 
 ## Frameworks, Languages & Programs Used
@@ -69,7 +89,7 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 
 ### Manual Testing
 
-- Navigation Bar
+- Memory Game
 
 1. When the company name is clicked, it returns the user to the index.html from all pages.
 2. When each link on the navbar is clicked, it takes the user to the correct page.
@@ -110,45 +130,9 @@ I used the Lighthouse on Google Developer Tools to check the Perfomance, Accessi
 ![PowerMapper](assets/images/powermapper.png)
 
 PowerMapper was used to double-check the browser compatibility.
-## Testing User Stories from User Experience (UX) Section
-### First Time Visitor Goals
-1. As a first time visitor, I want to easily see if the gym offers the service that I am looking for.
-    - At the nav bar on top of the site contains a link to the page classes.
-    - The classes page contains all the classes offered by the gym.
-
-2. As a first time visitor, I want to find information about the classes that the gym offers.
-   - At the page classes.html the customer has access to the timetable and the description of the classes.
-
-3. As a fisrt time visitor, I want to find out the cost of the services provided.
-    - At the index.html the customer has access to a section with the prices of the memberships.
-
-![Prices](assets/images/prices.png)
-
-### Returning Visitor Goals
-1. As a Returning Visitor, I want to find the best way to contact the gym.
-    - At the footer the user has access to the contact information and a text area where is possible to contact the gym.
-
-![Contact Information](assets/images/contact.png)
-
-2. As a Returning Visitor, I want to be able to access your social media accounts.
-    - The footer presents icons with links to the social medias.
-    - Each link opens the social media in a new page.
-
-  ![Social Media](assets/images/socialmedia.png)  
-
-### Frequent User Goals
-1. As a Frequent User, I want to be able to book my classes.
-    - At the classes.html page the user can find the Book Now buttons that opens the form to book an appointment.
-
-![Book Classes](assets/images/bookclass.png)  
 
 ### Issues
-- The form in the joinnow.html page wasn't working, I asked for help at Slack and the community pointed that my code was missing id's and names, the issue was fixed after adding that.
-- The buttons at the classes.html page cards weren't aligning, after asking for help at Slack, a mentor suggested adding height, after adding the code .card-body p {    min-height: 140px;}, the issue was fixed.
-
-### Known Bugs
-
-- The nav bar on small screen's scrolls with the rest of the page when the dropdown menu is active.
+- The timer starts as soon as the user enter the page, but it should start after the first click. Restarting the game makes it retart the timer.
 
 ## Deployment
 
@@ -186,18 +170,15 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ### Code
 
 - Bootstrap v 5.1.0: Bootstrap was used throughtout the project mainly the buttons, cards and carousel.
-- Google Maps Help: [This](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en) Google Maps Help explained how to embed the map into the html code.
 - FontAwesome: The icons in the footer were taken from Font Awesome.
 
 ### Media
 
 - All images were sourced from [Unsplash](https://unsplash.com/) or [Pexels](https://www.pexels.com/).
-- [Canva](https://www.canva.com/) were used to make the logo.
-
 ### Acknowledgements
 
 - Student care and fellow students at Code Institute for their support.
-- I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
+
 
 
 
