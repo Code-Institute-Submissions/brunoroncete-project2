@@ -38,7 +38,7 @@ function disableCards() {
     secondCard.removeEventListener('click', flipCard);
     score++;
     document.getElementById('score').innerHTML = score;
-
+    if (score == 8) stopGame();
 }
 
 function unflipCards() {
@@ -79,10 +79,8 @@ function resetButton() {
 }
 
 function stopGame() {
-    if (score != 8)
-        clearInterval()
+    clearInterval(timer);
     alert("YOU WIN!!!");
-
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));

@@ -102,4 +102,18 @@ header {
     flex-wrap: wrap;
 }
 
-.btn {}
+
+@media only screen and (max-width: 450px) {
+    .game {
+        width: 350px;
+        height: 350px;
+    }
+
+    header {
+        font-family: 'Fredoka One';
+        font-size: 35px;
+        color: white;
+        -webkit-text-stroke: 2px black;
+        padding: 50px 0px 50px 0px;
+    }
+}
