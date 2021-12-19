@@ -10,7 +10,10 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 ## User Stories
 ### First Time Visitor Goals
 1. As a first time visitor, I want a clear understanding of the interactive game on show.
-2. As a first time visitor, I want to have live scoring and a timer showing how long I took to win the game.
+
+2. As a first time visitor, I want a description of how to play the game.
+
+3. As a first time visitor, I want to have live scoring and a timer showing how long I took to win the game.
 
 # Return Visitor Goals
 
@@ -41,6 +44,12 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 - Timer and Score Board
 
 ![Timer.html](assets/images/timerscore.png)
+
+- How to play button
+
+![How to play.html](assets/images/howtoplay.png)
+
+![Modal.html](assets/images/modal.png)
 
 - Game Board
 
@@ -93,7 +102,11 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 
 - A large majority of the world's population have played or understand how a memory game is played. As soon as users enter the site, it is abundantly clear what the game is and how to play it.
 
-2. As a first time visitor, I want to have live scoring and a timer showing how long I took to win the game.
+2. As a first time visitor, I want a description of how to play the game.
+
+- There is a button "HOW TO PLAY?", where the user can find the rules.
+
+3. As a first time visitor, I want to have live scoring and a timer showing how long I took to win the game.
 
 - There is a score board showing the number of matches done and a timer to show how long it's taking to win the game.
 
@@ -131,6 +144,8 @@ PowerMapper was used to double-check the browser compatibility.
 
 ### Issues
 - The timer starts as soon as the user enter the page, but it should start after the first click. Restarting the game makes it retart the timer.
+
+- 
 
 ## Deployment
 

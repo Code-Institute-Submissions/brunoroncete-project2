@@ -7,6 +7,7 @@ let score = 0;
 let totalSeconds = 0;
 document.getElementById('score').innerHTML = score;
 
+// function for flipping cards
 
 function flipCard() {
     if (lockBoard) return;
@@ -26,6 +27,8 @@ function flipCard() {
     checkForMatch();
 }
 
+//check for match function
+
 function checkForMatch() {
     let isMatch = firstCard.dataset.type === secondCard.dataset.type;
 
@@ -40,6 +43,7 @@ function disableCards() {
     document.getElementById('score').innerHTML = score;
     if (score == 8) stopGame();
 }
+// unflip cards function 
 
 function unflipCards() {
     lockBoard = true;
@@ -55,6 +59,7 @@ function resetBoard() {
     [firstCard, secondCard] = [null, null]
 
 }
+// shuffle function
 
 (function shuffle() {
     cards.forEach(card => {
@@ -62,6 +67,8 @@ function resetBoard() {
         card.style.order = randomPos;
     });
 })();
+
+//function for timer board
 
 function countTimer() {
     ++totalSeconds;
@@ -74,9 +81,13 @@ function countTimer() {
     document.getElementById("timer").innerHTML = minute + ":" + seconds;
 }
 
+//reset game
+
 function resetButton() {
     location.reload();
 }
+
+//stop game
 
 function stopGame() {
     clearInterval(timer);
