@@ -10,7 +10,7 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 ## User Stories
 ### First Time Visitor Goals
 1. As a first time visitor, I want a clear understanding of the interactive game on show.
-2. As a first time visitor, I want to have live scoring and a timer showing how long I take to win the game.
+2. As a first time visitor, I want to have live scoring and a timer showing how long I took to win the game.
 
 # Return Visitor Goals
 
@@ -79,8 +79,8 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 - Style sheet language used for describing the presentation of a document in HTML.
 
 ### Javascript
+- JavaScript is a scripting language used to create and control dynamic website content.
 
-- 
 ## Testing
 
 ### Development Testing
@@ -89,19 +89,17 @@ The purpose is to design an attractive website, so the players can enjoy and hav
 
 ### Manual Testing
 
-- Memory Game
+1. As a first time visitor, I want a clear understanding of the interactive game on show.
 
-1. When the company name is clicked, it returns the user to the index.html from all pages.
-2. When each link on the navbar is clicked, it takes the user to the correct page.
+- A large majority of the world's population have played or understand how a memory game is played. As soon as users enter the site, it is abundantly clear what the game is and how to play it.
+
+2. As a first time visitor, I want to have live scoring and a timer showing how long I took to win the game.
+
+- There is a score board showing the number of matches done and a timer to show how long it's taking to win the game.
 
 - Social Media Links
 1. When each link is clicked, it opens a new tab.
 2. When each link is clicked, it takes the user to the correct page.
-
-- Forms
-1. When submitted the form link to the correct place.
-
-![Valid Form](assets/images/validform.png)
 
 ### Code Validation
 
